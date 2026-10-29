@@ -13,7 +13,7 @@ class BankAccount:
             return True
         return False
 
-    def withdray(self, amount):
+    def withdraw(self, amount):
         if amount > 0 and amount <= self.balance:
             self.balance -= amount
             return True
